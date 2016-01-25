@@ -46,3 +46,9 @@ assert.equal(
   stringify({ edition: 1, draft: 1 }),
   '1e1d')
 ```
+
+# reved
+
+This package is bundled with other functions for
+creating and manipulating reviewers editions in
+[reved](https://www.npmjs.com/packages/reved).
