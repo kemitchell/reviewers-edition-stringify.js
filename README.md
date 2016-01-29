@@ -1,4 +1,4 @@
-This package exports a single function. The function takes a single argument of the kind returned from [reviewers-edition-parse][parse]. It returns a short string for the reviewers edition.
+This package exports a single function. The function takes a single argument of the kind returned from [reviewers-edition-parse][parse]. It returns a short string for the Reviewers Edition.
 
 ```javascript
 var stringify = require('reviewers-edition-stringify')
@@ -50,5 +50,5 @@ assert.equal(
 # reved
 
 This package is bundled with other functions for
-creating and manipulating reviewers editions in
+creating and manipulating Reviewers Editions in
 [reved](https://www.npmjs.com/packages/reved).
