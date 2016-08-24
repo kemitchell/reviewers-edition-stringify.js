@@ -15,36 +15,44 @@ use Node.js' built-in `assert` module.
 var assert = require('assert')
 
 assert.equal(
-  stringify({ edition: 1 }),
-  '1e')
+  stringify({edition: 1}),
+  '1e'
+)
 
 assert.equal(
-  stringify({ edition: 1, update: 1 }),
-  '1e1u')
+  stringify({edition: 1, update: 1}),
+  '1e1u'
+)
 
 assert.equal(
-  stringify({ edition: 1, update: 1, correction: 1 }),
-  '1e1u1c')
+  stringify({edition: 1, update: 1, correction: 1}),
+  '1e1u1c'
+)
 
 assert.equal(
-  stringify({ edition: 1, update: 1, draft: 1 }),
-  '1e1u1d')
+  stringify({edition: 1, update: 1, draft: 1}),
+  '1e1u1d'
+)
 
 assert.equal(
-  stringify({ edition: 1, update: 1, correction: 1, draft: 1 }),
-  '1e1u1c1d')
+  stringify({edition: 1, update: 1, correction: 1, draft: 1}),
+  '1e1u1c1d'
+)
 
 assert.equal(
-  stringify({ edition: 1, correction: 1 }),
-  '1e1c')
+  stringify({edition: 1, correction: 1}),
+  '1e1c'
+)
 
 assert.equal(
-  stringify({ edition: 1, correction: 1, draft: 1 }),
-  '1e1c1d')
+  stringify({edition: 1, correction: 1, draft: 1}),
+  '1e1c1d'
+)
 
 assert.equal(
-  stringify({ edition: 1, draft: 1 }),
-  '1e1d')
+  stringify({edition: 1, draft: 1}),
+  '1e1d'
+)
 ```
 
 # reved
